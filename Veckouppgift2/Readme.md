@@ -4,7 +4,8 @@ Denna gången är det en fördel att diskutera de flesta uppgifterna.
 Planera din tid, så att du hinner arbeta med alla övningarna.  
 Du ska alltså inte göra "färdigt" alla tidigare övningar innan du går vidare på nästa.  
   
-1a Vilka strängar matchas av det reguljära uttrycket: "ab" ? Testa era svar på https://regex101.com/  
+1a  
+Vilka strängar matchas av det reguljära uttrycket: "ab" ? Testa era svar på https://regex101.com/  
 a. "a b"  
 b. "aBBa"  
 c. "sabotör"  
@@ -13,13 +14,15 @@ Svar:
 c - måste matcha med samma case som strängen man jämför med.  
   
 
-1b Betrakta uttrycket "nisse". Vad skriver jag för att matcha både "Nisse", "NISSE" och "nisse"?  
+1b  
+Betrakta uttrycket "nisse". Vad skriver jag för att matcha både "Nisse", "NISSE" och "nisse"?  
   
 Svar:  
 Genom använda ignore case flaggan.  
 (?i)nisse  
   
-1c Vilka strängar matchas av "a\*n" ?  
+1c  
+Vilka strängar matchas av "a\*n" ?  
 a. "an"  
 b. "amerikan"  
 c. "naturlig"  
@@ -29,7 +32,8 @@ Svar:
 Matchar alla efter som * = 0 eller fler tecken
   
   
-1d Vilka strängar matchas av "[ae]n" ?  
+1d  
+Vilka strängar matchas av "[ae]n" ?  
 a. "naiv"  
 b. "inconsequential"  
 c. "bae"  
@@ -39,7 +43,8 @@ Matchar "an" eller "en"
 dvs. b  
   
 
-1e Vilka strängar matchas av "je.+e"?  
+1e  
+Vilka strängar matchas av "je.+e"?  
 a. "je"  
 b. "jee"  
 c. "jeppe"  
@@ -50,7 +55,8 @@ Svar:
 dvs c och d  
   
 
-1f Vilka strängar matchas av "\san?\s"  
+1f   
+Vilka strängar matchas av "\san?\s"  
 a. "sansad"  
 b. " annan "  
 c. "    an   na   an   "  
@@ -62,7 +68,7 @@ men kan sluta på vilken annan character som även ingen. dvs " an " eller " a "
 c och d  
   
   
-1e   
+1e  
 Skriv ner med egna ord, vad följande uttryck matchar. "Strängar som innehåller…"  
 a. "lines?"  
 b. "^a*ö$"  
