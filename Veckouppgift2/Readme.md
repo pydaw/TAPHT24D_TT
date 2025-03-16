@@ -1,5 +1,5 @@
 
-1 Diskutera i grupp
+# 1 Diskutera i grupp
 Denna gången är det en fördel att diskutera de flesta uppgifterna.
 Planera din tid, så att du hinner arbeta med alla övningarna. Du ska alltså inte göra "färdigt" alla tidigare övningar innan du går vidare på nästa.
 
