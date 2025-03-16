@@ -84,7 +84,7 @@ d. förstod inte riktigt vad man skulle åstadkomma med denna. Strängen matchar
 e. datum.... 2025-03-02  
   
   
-2a   
+2a  
 Betrakta https://lejonmanen.github.io/agile-helper/ . Skriv en user story som beskriver att användaren ska kunna läsa hur man gör en "sprint retrospective".
   
 Svar:  
@@ -285,7 +285,7 @@ Scenario:
 Utgå från dina user stories och scenarion i föregående uppgift. Skriv kod med Playwright som testar dem. Ta hjälp av kodexemplet i presentationen.  
   
 Svar:  
-[Uppgift 4 - E2E test](./Veckouppgift2/Uppgift4/test_agile_helper.py)  
+[Uppgift 4 - E2E test](./Uppgift4/test_agile_helper.py)  
   
 ```bash
 ============================= test session starts =============================
