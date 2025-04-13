@@ -1,6 +1,5 @@
 from playwright.sync_api import Page, Locator
 from config.global_settings import BASE_URL
-import logging
 
 class FriendPage():
     def __init__(self, page: Page):
