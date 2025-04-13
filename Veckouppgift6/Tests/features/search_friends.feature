@@ -6,34 +6,34 @@ Feature: Söka efter vänner
 
     Scenario Outline: Söka efter en vän med
         Given användaren befinner sig på sidan med vänlistan
-        When skriver in <search> i sökfältet
-        Then skall listan visa <antal> matchningar
+        When skriver in "<search>" i sökfältet
+        Then skall listan visa "<number>" matchningar
 
     Examples:
-        | sökning                       | antal |
-        | Jean-Luc                      | 1     |
-        | commander.riker@starfleet.com | 1     |
+        | search                        | number |
+        | Jean-Luc                      | 1      |
+        | commander.riker@starfleet.com | 1      |
 
 
     Scenario Outline: Söka efter en vän med
         Given användaren befinner sig på sidan med vänlistan
-        When skriver in <search> med gemener i sökfältet
-        Then skall listan visa <antal> matchningar
+        When skriver in "<search>" med gemener i sökfältet
+        Then skall listan visa "<number>" matchningar
 
     Examples:
-        | sökning                       | antal |
-        | jean-luc                      | 1     |
-        | commander.riker@starfleet.com | 1     |
+        | search                        | number |
+        | jean-luc                      | 1      |
+        | commander.riker@starfleet.com | 1      |
 
 
     Scenario Outline: Söka efter en vän med
         Given användaren befinner sig på sidan med vänlistan
-        When skriver in <search> med versaler i sökfältet
-        Then skall listan visa <antal> matchningar
+        When skriver in "<search>" med versaler i sökfältet
+        Then skall listan visa "<number>" matchningar
 
     Examples:
-        | sökning                       | antal |
-        | JEAN-LUC                      | 1     |
-        | COMMANDER.RIKER@STARFLEET.COM | 1     |
+        | search                        | number |
+        | JEAN-LUC                      | 1      |
+        | COMMANDER.RIKER@STARFLEET.COM | 1      |
 
     

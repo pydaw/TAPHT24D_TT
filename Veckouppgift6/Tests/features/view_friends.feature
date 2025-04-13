@@ -4,6 +4,6 @@ Feature: Visa alla vänner
   För att kunna se vilka vänner jag har
 
   Scenario: Användaren ser listan med alla vänner
-    Given användare befinner sig på sidan med vänlistan
+    Given användaren befinner sig på sidan med vänlistan
     When användaren tittar på listan
     Then användaren ser en lista med 5 vänner
